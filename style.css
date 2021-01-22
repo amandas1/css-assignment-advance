@@ -1,0 +1,276 @@
+*{
+	margin:0;
+	padding:0;
+}
+body {
+	background-image:url(background.jpg);
+	background-position:center;
+	background-size:1500px 1500px;
+	font-family:sans-serif;
+	margin-top:40px;
+	overflow-x: hidden;
+
+}
+.regform{
+	width:800px;
+	background-color:rgb(0,0,0,6);
+	margin:auto;
+	color:#ffffff;
+	padding:10px 0px 10px 0px;
+	text-align:center;
+	border-radius: 15px 15px 0px 0px;
+}
+.main {
+	background-color:rgb(0,0,0,0.5);
+	width: 800px;
+	margin:auto;
+}
+form {
+	padding:10px;
+}
+#name {
+	width:100%;
+	height:100px;
+}
+.name {
+	margin-left:25px;
+	margin-top:20px;
+	width:125px;
+	color:white;
+	font-size:18px;
+	font-weight:700;
+	
+}
+.firstname {
+	position:relative;
+	left:20px;
+	top:-35px;
+	line-height:40px;
+	border-radius: 6px;
+	padding:0 10px;
+	font-size:15px;
+}
+.middlename {
+	position:relative;
+	left:10px;
+	top:-35px;
+	line-height:40px;
+	border-radius: 6px;
+	padding:0 10px;
+	font-size:15px;
+	
+}
+.lastname {
+	position:relative;
+	left:10px;
+	top:-32px;
+	line-height:40px;
+	border-radius: 6px;
+	padding:0 10px;
+	font-size:15px;
+	
+}
+.firstlabel {
+	position:relative;
+	color:#E5E5E5;
+	font-size:14px;
+	left:100px;
+	top:5px;
+}
+.middlelabel {
+	position:relative;
+	color:#E5E5E5;
+	font-size:14px;
+	left:100px;
+	top:5px;
+	
+}
+.lastlabel {
+	position:relative;
+	color:#E5E5E5;
+	font-size:14px;
+	left:80px;
+	top:5px;
+	
+}
+.doblabel {
+	margin-left:25px;
+	width:125px;
+	color:white;
+	font-size:18px;
+	font-weight:700;
+}
+.dob {
+	position:relative;
+	left:20px;
+	top:-5px;
+	line-height:40px;
+	border-radius: 6px;
+	padding:0 20px;
+	font-size:15px;
+}
+.genderlabel {
+	position:relative;
+	left:450px;
+	top:-35px;
+	color:white;
+	font-weight:700;
+	font-size:18px;
+}
+.gender {
+	position:relative;
+	left:550px;
+	top:-52px;
+	color:#ffffff;
+}
+.emaillabel {
+	position:relative;
+	margin-left:25px;
+	width:125px;
+	color:white;
+	font-size:18px;
+	font-weight:700;
+	
+}
+.email {
+	position: relative;
+	left:20px;
+	top:-5px;
+	line-height:40px;
+	border-radius: 6px;
+	padding:0 30px;
+	font-size:15px;
+	
+}
+.passwordlabel {
+	position: relative;
+	left:112px;
+	font-size:18px;
+	color:#ffffff;
+	
+}
+.password {
+	position: relative;
+	left:125px;
+	line-height:40px;
+	border-radius: 6px;
+	padding:0 15px;
+	font-size:15px;
+}
+.phonelabel {
+	position:relative;
+	margin-left:25px;
+	width:125px;
+	color:white;
+	font-size:18px;
+	font-weight:700;	
+}
+.phcode {
+	position:relative;
+	line-height:40px;
+	border-radius: 6px;
+	padding:0 5px;
+	font-size:15px;
+	
+}
+.phone {
+	position:relative;
+	line-height:40px;
+	border-radius: 6px;
+	padding:0 38px;
+	font-size:15px;
+	
+}
+.caddresslabel {
+	position:relative;
+	margin-left:25px;
+	width:125px;
+	color:white;
+	font-size:18px;
+	font-weight:700;
+}
+.caddress {
+	position:relative;
+	left: 10px;
+	line-height:40px;
+	border-radius: 6px;
+	padding:0 45px;
+	font-size:15px;
+}
+.ccitylabel {
+	position:relative;
+	margin-left:550px;
+	top:-60px;
+	width:125px;
+	color:white;
+	font-size:18px;
+	font-weight:700;
+}
+.ccity {
+	position:relative;
+	left: 10px;
+	top:-60px;
+	line-height:40px;
+	border-radius: 6px;
+	padding:0 5px;
+	font-size:15px;
+}
+.cstatelabel {
+	position:relative;
+	margin-left:25px;
+	width:125px;
+	color:white;
+	font-size:18px;
+	font-weight:700;
+}
+.cstate {
+	position:relative;
+	left: 10px;
+	line-height:100px;
+	border-radius: 6px;
+	padding:0 5px;
+	font-size:15px;
+}
+.ccountrylabel {
+	position:relative;
+	margin-left:130px;
+	width:125px;
+	color:white;
+	font-size:18px;
+	font-weight:700;
+}
+.ccountry {
+	position:relative;
+	left: 10px;
+	line-height:40px;
+	border-radius: 6px;
+	padding:0 5px;
+	font-size:15px;
+}
+
+.registerbtn {
+	position:relative;
+	background-color:green;
+	left: 350px;
+	line-height:40px;
+	border-radius: 6px;
+	padding:0 15px;
+	font-size:15px;
+}
+.interestlabel {
+	position:relative;
+	margin-left:27px;
+	width:125px;
+	color:white;
+	font-size:18px;
+	font-weight:700;
+}
+.interest {
+	position:relative;
+	left: 20px;
+	top: 20px;
+	line-height:40px;
+	border-radius: 6px;
+	padding:0 30px;
+	font-size:15px;
+}
